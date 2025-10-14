@@ -1,3 +1,5 @@
+print("sinh vien: nguyen ba nhan")
+print("msv: 245752021610141")
 a = int(input("Nhập số a: "))
 b = int(input("Nhập số b: "))
 

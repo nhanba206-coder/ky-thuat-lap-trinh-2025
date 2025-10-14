@@ -1,3 +1,5 @@
+print("sinh vien: nguyen ba nhan")
+print("msv: 245752021610141")
 import math;
 x1 = int(input("enter x1: "))
 y1 = int(input("enter y1: "))
