@@ -1,0 +1,6 @@
+print("sinh vien: nguyen ba nhan")
+print("msv: 245752021610141")
+s = input("Nhập các từ: ")
+words = s.split()
+words_sorted = sorted(words, key=str.lower)  
+print(" ".join(words_sorted))

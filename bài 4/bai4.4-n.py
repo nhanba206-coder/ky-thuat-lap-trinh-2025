@@ -1,0 +1,5 @@
+print("sinh vien: nguyen ba nhan")
+print("msv: 245752021610141")
+line = input("Nhập các phần tử, cách nhau bởi space/tab: ")
+lst = line.split()  
+print(lst)

@@ -1,0 +1,7 @@
+print("sinh vien: nguyen ba nhan")
+print("msv: 245752021610141")
+s = input("Nhập câu: ")
+letters = sum(1 for ch in s if ch.isalpha())
+digits  = sum(1 for ch in s if ch.isdigit())
+print("Số chữ cái là:", letters)
+print("Số chữ số là:", digits)

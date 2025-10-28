@@ -1,0 +1,7 @@
+print("sinh vien: nguyen ba nhan")
+print("msv: 245752021610141")
+s = input("Nhập câu: ")
+upper = sum(1 for ch in s if ch.isupper())
+lower = sum(1 for ch in s if ch.islower())
+print("Chữ hoa:", upper)
+print("Chữ thường:", lower)

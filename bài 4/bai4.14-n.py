@@ -1,0 +1,5 @@
+print("sinh vien: nguyen ba nhan")
+print("msv: 245752021610141")
+lst = input("Nhập các số cách nhau space: ").split()
+lst.sort()
+print(lst)
