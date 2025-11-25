@@ -1,0 +1,6 @@
+print("Sinh viên: Nguyễn Bá Nhàn - MSV: 245752021610141")
+print("Bài 10 - Từ dài nhất")
+print("="*50)
+words = open("test.txt", encoding="utf-8").read().split()
+longest = max(words, key=len)
+print(f"Từ dài nhất ({len(longest)} ký tự): {longest}")
